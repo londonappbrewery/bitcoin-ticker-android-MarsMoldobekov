@@ -3,9 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="?android:attr/listPreferredItemHeight"
-
     android:id="@android:id/text1"
-    style="?android:attr/spinnerDropDownItemStyle"
     android:ellipsize="marquee"
     android:text="@string/label_error_text"
     android:textColor="@color/black"
@@ -13,9 +11,5 @@
     android:background="@drawable/color_selector"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
-
-    android:maxLines="1"/>
-
-
-
-
+    android:singleLine="true"
+    style="?android:attr/spinnerDropDownItemStyle" />
